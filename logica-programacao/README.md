@@ -25,11 +25,11 @@ Este repositório contém os materiais dos cursos Lógica de programação. O cu
     - Crie manipulações de palavras e números de forma dinâmica com JavaScript 
 
 ## Atalhos 
-Clique <a href="https://github.com/SergioSinhoca/"
+Clique <a href="https://github.com/SergioSinhoca/iniciante-programacao-next-education/tree/main/logica-programacao/Lógica%20de%20programação%3A%20mergulhe%20em%20programação%20com%20JavaScript"
  title="View repository"> aqui </a>
  para acessar o repositório `Lógica de programação: mergulhe em programação com JavaScript`
 
- Clique <a href="https://github.com/SergioSinhoca/"
+ Clique <a href="https://github.com/SergioSinhoca/iniciante-programacao-next-education/tree/main/logica-programacao/Lógica%20de%20programação%3A%20explore%20funções%20e%20listas"
  title="View repository"> aqui </a>
  para acessar o repositório `Lógica de programação: explore funções e listas`
 
