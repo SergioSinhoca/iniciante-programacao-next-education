@@ -36,5 +36,5 @@ Neste repositório, armazenarei meu projeto desenvolvido ao longo dos quatro cur
 ## Projeto Final
 Para acessar o projeto desenvolvido durante as aulas de HTML e CSS, clique no repositório abaixo.
 
-<a href="https://github.com/SergioSinhoca/"
+<a href="https://github.com/SergioSinhoca/iniciante-programacao-next-education/tree/main/html-css/portfolio"
 title="View repository">Projeto portfólio</a>
