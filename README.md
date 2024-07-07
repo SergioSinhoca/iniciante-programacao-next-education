@@ -16,13 +16,13 @@ Este repositório é destinado a armazenar meus projetos do curso iniciante em p
 
 ## Atalhos
 Aqui estão os links diretos para acessar os repositórios de cada curso individualmente:
-- **Lógica de Programação**: <a href="https://github.com/SergioSinhoca/"
+- **Lógica de Programação**: <a href="https://github.com/SergioSinhoca/iniciante-programacao-next-education/tree/main/logica-programacao"
 title="View repository">Acesse o repositório</a> 
 
-- **HTML e CSS**: <a href="https://github.com/SergioSinhoca/"
+- **HTML e CSS**: <a href="https://github.com/SergioSinhoca/iniciante-programacao-next-education/tree/main/html-css"
 title="View repository">Acesse o repositório</a>
 
-- **Desafio Final**: <a href="https://github.com/SergioSinhoca/"
+- **Desafio Final**: <a href="https://github.com/SergioSinhoca/iniciante-programacao-next-education/tree/main/desafio-encriptador-de-texto"
 title="View repository">Acesse o repositório</a>
 
 ## Links Úteis
