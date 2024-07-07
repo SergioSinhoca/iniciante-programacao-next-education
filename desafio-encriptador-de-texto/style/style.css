@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root {
+    --primeira-cor: #000000;
+    --segunda-cor: #D8DFE8;
+    --terceira-cor: #221455;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+body {
+    background-color: var(--primeira-cor);
+}
+
+
+
+.estilo__cabecalho {
+    margin: 3% 0 0;
+}
+
+
+.estilo__conteudo__principal {
+    margin: 5% 0 0 10%;
+}
+
+
+.estilo__conteudo__principal h1 {
+    font-size: 2.5rem;
+    margin: 5% auto;
+    color: var(--segunda-cor);
+}
+
+.conteudo__container{
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+
+.estilo__area__entrada {
+    width: 45%;
+}
+
+.estilo__area__entrada textarea {
+    background-color: var(--segunda-cor);
+    border: 2px solid var(--terceira-cor);
+}
+
+textarea {
+    width: 100%;
+    height: 400px;
+    resize: none;
+    border-radius: 5%;
+    padding: 2%;
+    font-size: 1.5rem;
+    color: var(--primeira-cor);
+}
+
+.divisao__informacao__letras {
+    display: flex;
+    align-items: center;
+}
+
+.divisao__informacao__letras h6 {
+    font-size: 0.8rem;
+    color: var(--segunda-cor);
+    padding: 1%;
+}
+
+.divisao__botoes {
+    width: 200%;
+    margin: 10% 0;
+}
+
+.divisao__limita__botoes {
+    display: flex;
+    gap: 1rem;
+}
+
+.divisao__botoes .divisao__conteudo__encriptografada, 
+button {
+    width: 100%;
+    max-width: 20rem;
+    height: 4rem;
+    font-size: 1rem;
+    border-radius: 16px;
+    border: 0;
+    font-weight: 500;
+    background-color: var(--segunda-cor);
+}
+
+.divisao__botoes .button__criptografar {
+    color: var(--segunda-cor);
+    background-color: var(--terceira-cor);
+}
+
+.divisao__botoes .button__descriptografar{
+    color: var(--primeira-cor);
+    background-color: var(--segunda-cor);
+}
+
+.button__criptografar:hover {
+    box-shadow: 10px 5px 5px var(--segunda-cor);
+    cursor: pointer;
+}
+
+.button__descriptografar:hover, 
+.button__copiar:hover {
+    box-shadow: 10px 5px 5px var(--terceira-cor);
+    cursor: pointer;
+}
+
+.button__copiar{
+    margin: 3% 0;
+    background-color: var(--primeira-cor);
+    color: var(--segunda-cor);
+}
+
+.estilo__quadro__mensagem__encriptografada {
+    width: 45%;
+    height: 400px;
+    border-radius: 6%;
+    background-color: var(--segunda-cor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.estilo__quadro__mensagem__encriptografada 
+.divisao__conteudo__encriptografada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.estilo__quadro__mensagem__encriptografada 
+.caixa__texto__saida {
+    resize: none;
+    width: 100%;
+    height: 200px;
+    border-radius: 5%;
+    border: none;
+    background-color: var(--segunda-cor);
+}
+
+.divisao__conteudo__encriptografada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa__texto__saida.empty {
+    background-image: url('../assets/img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+
+/* Estilo para o título h2 */
+.estilo__quadro__mensagem__encriptografada 
+.divisao__conteudo__encriptografada h2 {
+    width: 100%;
+    margin: 5% 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--terceira-cor);
+}
+
+/* Estilo para o parágrafo */
+.estilo__quadro__mensagem__encriptografada .divisao__conteudo__encriptografada p {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+.estilo__rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--segunda-cor);
+    padding: 2% 0;
+    border-top: 1px solid var(--terceira-cor);
+    border-radius: 6%;
+}
+
+.estilo__rodape img {
+    width: 9%;
+    margin: 0 3%;
+}
+
+/* responsividade */
+
+@media(max-width: 768px){
+    .conteudo__container {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .estilo__conteudo__principal,
+    .conteudo__container
+    {
+        margin: 0 5%;
+    }
+
+    .estilo__area__entrada, .estilo__quadro__mensagem__encriptografada {
+        width: 100%;
+    }
+
+    .divisao__botoes {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    
+    .estilo__quadro__mensagem__encriptografada {
+        display: none; /* Ocultar inicialmente em telas pequenas */
+    }
+
+    .estilo__quadro__mensagem__encriptografada.visible {
+        display: flex; /* Mostrar quando tiver texto encriptado */
+        margin: 0 0 10% 0;
+    }
+ 
+}
+
+@media(max-width: 375px){
+    .estilo__conteudo__principal h1 {
+        font-size: 1.5rem;
+        margin: 5% 7%;
+    }
+
+    .caixa__texto__entrada,
+    .caixa__texto__saida{
+        font-size: 1rem;
+    }
+
+    .divisao__limita__botoes {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .estilo__rodape{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .estilo__rodape img{
+        width: 20%;
+    }
+}

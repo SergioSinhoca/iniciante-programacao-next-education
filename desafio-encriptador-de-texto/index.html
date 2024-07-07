@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto - Alura + One</title>
+    <link rel="shortcut icon" href="assets/logotipo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="estilo__cabecalho">
+        <img src="assets/img-logo-alura.png" alt="logo da Alura">
+    </header>
+    <main class="estilo__conteudo__principal">
+        <h1>Decodificador de texto</h1>
+        <div class="conteudo__container">
+            <section class="estilo__area__entrada">
+                <textarea class="caixa__texto__entrada" id="texto_entrada" cols="40" rows="6"
+                    placeholder="Digite seu texto"></textarea>
+                <div class="divisao__botoes">
+                    <div class="divisao__informacao__letras">
+                        <img src="assets/exclamacao_simbolo.png" alt="símbolo de exclamação">
+                        <h6>Apenas letras minúsculas e sem acento.</h6>
+                    </div>
+                    <div class="divisao__limita__botoes">
+                        <button class="button__criptografar" onclick="buttonCriptografar()">Criptografar</button>
+                        <button class="button__descriptografar" onclick="buttonDescriptografar()">Descriptografar</button>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="estilo__quadro__mensagem__encriptografada">
+                <div id="divisao_conteudo" class="divisao__conteudo__encriptografada">
+                    <textarea class="caixa__texto__saida empty" id="texto_saida" cols="40" rows="6" readonly></textarea>
+                    <h2 id="mensagem_nenhuma">Nenhuma mensagem encontrada</h2>
+                    <p id="mensagem_instrucoes">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    <button id="button_copiar" class="button__copiar">Copiar</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="estilo__rodape">
+        <p>Desenvolvido por Sergio Luiz Sinhoca</p>
+        <img src="assets/logo.png" alt="logo com as iniciais do meu nome SLS Sergio Luiz Sinhoca">
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
