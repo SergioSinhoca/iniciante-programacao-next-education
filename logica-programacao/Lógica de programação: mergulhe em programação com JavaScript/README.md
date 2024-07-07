@@ -68,6 +68,6 @@ Este módulo tem como objetivo introduzir os fundamentos da programação utiliz
    - Parabéns!
 
 ## Atalhos 
-Clique <a href="https://github.com/SergioSinhoca/"
+Clique <a href="https://github.com/SergioSinhoca/iniciante-programacao-next-education/blob/main/logica-programacao/Lógica%20de%20programação:%20mergulhe%20em%20programação%20com%20JavaScript/logica-js-projeto_inicial/README.md"
  title="View repository"> aqui </a>
  para acessar o repositório com a resolução do `desafio final`
