@@ -67,21 +67,21 @@ Este módulo visa aprofundar os conhecimentos em lógica de programação, focan
 O repositório com os exercícios e desafios propostos no curso está disponível abaixo.
 
 - Projeto do curso
-    - <a href="https://github.com/SergioSinhoca/"
+    - <a href="https://github.com/SergioSinhoca/iniciante-programacao-next-education/tree/main/logica-programacao/Lógica%20de%20programação%3A%20explore%20funções%20e%20listas/js-curso-2-aula1"
     title="View repository">Jogo número segreto</a>
 
 
 - Exercícios
-   - <a href="https://github.com/SergioSinhoca/"
+   - <a href="https://github.com/SergioSinhoca/iniciante-programacao-next-education/tree/main/logica-programacao/Lógica%20de%20programação%3A%20explore%20funções%20e%20listas/exercícios-01"
    title="View repository">1° Lista de exercícios</a>
 
-   - <a href="https://github.com/SergioSinhoca/"
+   - <a href="https://github.com/SergioSinhoca/iniciante-programacao-next-education/tree/main/logica-programacao/Lógica%20de%20programação%3A%20explore%20funções%20e%20listas/exercícios-02"
    title="View repository">2° Lista de exercícios</a>
 
-   - <a href="https://github.com/SergioSinhoca/"
+   - <a href="https://github.com/SergioSinhoca/iniciante-programacao-next-education/tree/main/logica-programacao/Lógica%20de%20programação%3A%20explore%20funções%20e%20listas/exercícios-03"
    title="View repository">3° Lista de exercícios</a>
 
-   - <a href="https://github.com/SergioSinhoca/"
+   - <a href="https://github.com/SergioSinhoca/iniciante-programacao-next-education/tree/main/logica-programacao/Lógica%20de%20programação%3A%20explore%20funções%20e%20listas/js-curso-2-desafio_1"
    title="View repository">4° Lista de exercícios</a>
 
 
